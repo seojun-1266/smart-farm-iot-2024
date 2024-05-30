@@ -1,0 +1,4 @@
+*.ino text eol=lf
+*.md text eol=lf
+*.aia binary
+*.gif binary
