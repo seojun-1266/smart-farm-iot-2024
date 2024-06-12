@@ -85,8 +85,8 @@ void loop() {
         moveMotor(); // 올바른 비밀번호 입력시 모터 움직이기
         count = 0;
         if(count == 0){
-          btSerial.print("1");
-          Serial.print("일");
+          btSerial.print("0");
+          Serial.print("영");
         }
       } else {
         
@@ -94,8 +94,8 @@ void loop() {
         //if(count2 == 1)
         count = 1;
         if(count == 1){
-        btSerial.print("0");
-        Serial.print("영");
+        btSerial.print("1");
+        Serial.print("일");
         }
       }
     }
@@ -149,9 +149,12 @@ void loop() {
       Serial.print(humi);
       Serial.println(" %");
 
+      btSerial.print("습도 : ");
+      btSerial.print(humi);
+      btSerial.println(" %");
+      btSerial.print("온도 : ");
       btSerial.print(temp);
-      btSerial.print(",");
-      btSerial.println(humi);
+      btSerial.print("°C");
     } else {
       Serial.print("Temperature out of range: ");
       Serial.println(temp);
