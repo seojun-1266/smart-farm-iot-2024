@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1230.0" viewBox="0 0 1000 1230.0" font-family="Segoe UI, Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="1000" height="1230.0" fill="#ffffff"/>
+<text x="40" y="48" font-size="26" font-weight="700" fill="#1d2433">바닥(Floor) 아두이노 배선도 — v1 (2024-06 전시회 버전)</text>
+<text x="40" y="78" font-size="15" fill="#5b6475">firmware/floor/floor.ino (v1.0-exhibition 태그) 기준 · 출입문 보안 + 환경 제어 + 블루투스</text>
+<rect x="40" y="110" width="260" height="978.0" rx="14" fill="#00878f"/>
+<text x="60" y="144" font-size="20" font-weight="700" fill="#fff">Arduino UNO</text>
+<rect x="230" y="179.6" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="195.6" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D2</text>
+<circle cx="300" cy="190.6" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="240.79999999999998" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="256.79999999999995" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D3</text>
+<circle cx="300" cy="251.79999999999998" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="302.0" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="318.0" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D4</text>
+<circle cx="300" cy="313.0" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="363.20000000000005" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="379.20000000000005" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D5</text>
+<circle cx="300" cy="374.20000000000005" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="424.40000000000003" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="440.40000000000003" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D6</text>
+<circle cx="300" cy="435.40000000000003" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="485.6" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="501.6" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D7</text>
+<circle cx="300" cy="496.6" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="546.8000000000001" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="562.8000000000001" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D8</text>
+<circle cx="300" cy="557.8000000000001" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="608.0000000000001" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="624.0000000000001" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D9</text>
+<circle cx="300" cy="619.0000000000001" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="669.2" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="685.2" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D10</text>
+<circle cx="300" cy="680.2" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="730.4000000000001" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="746.4000000000001" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D11</text>
+<circle cx="300" cy="741.4000000000001" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="791.6" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="807.6" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D12</text>
+<circle cx="300" cy="802.6" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="852.8000000000001" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="868.8000000000001" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D13</text>
+<circle cx="300" cy="863.8000000000001" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="914.0000000000001" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="930.0000000000001" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">A0</text>
+<circle cx="300" cy="925.0000000000001" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="975.2" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="991.2" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">A1</text>
+<circle cx="300" cy="986.2" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="1036.4" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="1052.4" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">A2</text>
+<circle cx="300" cy="1047.4" r="4" fill="#ffd166" stroke="#1d2433"/>
+<path d="M300,190.6 C450,190.6 470,153.0 620,153.0" fill="none" stroke="#e4572e" stroke-width="2.5"/>
+<path d="M300,251.79999999999998 C450,251.79999999999998 470,179.0 620,179.0" fill="none" stroke="#e4572e" stroke-width="2.5"/>
+<path d="M300,313.0 C450,313.0 470,205.0 620,205.0" fill="none" stroke="#e4572e" stroke-width="2.5"/>
+<path d="M300,374.20000000000005 C450,374.20000000000005 470,231.0 620,231.0" fill="none" stroke="#e4572e" stroke-width="2.5"/>
+<path d="M300,435.40000000000003 C450,435.40000000000003 470,311.0 620,311.0" fill="none" stroke="#2e86ab" stroke-width="2.5"/>
+<path d="M300,496.6 C450,496.6 470,391.0 620,391.0" fill="none" stroke="#3bb273" stroke-width="2.5"/>
+<path d="M300,557.8000000000001 C450,557.8000000000001 470,471.0 620,471.0" fill="none" stroke="#f3a712" stroke-width="2.5"/>
+<path d="M300,619.0000000000001 C450,619.0000000000001 470,551.0 620,551.0" fill="none" stroke="#8e44ad" stroke-width="2.5"/>
+<path d="M300,680.2 C450,680.2 470,577.0 620,577.0" fill="none" stroke="#8e44ad" stroke-width="2.5"/>
+<path d="M300,741.4000000000001 C450,741.4000000000001 470,657.0 620,657.0" fill="none" stroke="#d81159" stroke-width="2.5"/>
+<path d="M300,802.6 C450,802.6 470,737.0 620,737.0" fill="none" stroke="#0f7173" stroke-width="2.5"/>
+<path d="M300,863.8000000000001 C450,863.8000000000001 470,817.0 620,817.0" fill="none" stroke="#7f5539" stroke-width="2.5"/>
+<path d="M300,925.0000000000001 C450,925.0000000000001 470,897.0 620,897.0" fill="none" stroke="#5f0f40" stroke-width="2.5"/>
+<path d="M300,986.2 C450,986.2 470,977.0 620,977.0" fill="none" stroke="#1b998b" stroke-width="2.5"/>
+<path d="M300,1047.4 C450,1047.4 470,1057.0 620,1057.0" fill="none" stroke="#ff6f00" stroke-width="2.5"/>
+<rect x="620" y="110" width="340" height="142" rx="10" fill="#f7f8fa" stroke="#e4572e" stroke-width="2"/>
+<rect x="620" y="110" width="340" height="26" rx="10" fill="#e4572e"/>
+<rect x="620" y="126" width="340" height="10" fill="#e4572e"/>
+<text x="634" y="129" font-size="15" font-weight="700" fill="#fff">키패드 (2x2 사용: 1·2·4·5 키)</text>
+<circle cx="620" cy="153.0" r="4" fill="#e4572e"/>
+<text x="634" y="158.0" font-size="14" fill="#1d2433">COL2</text>
+<text x="946" y="158.0" font-size="13" text-anchor="end" fill="#5b6475">← D2</text>
+<circle cx="620" cy="179.0" r="4" fill="#e4572e"/>
+<text x="634" y="184.0" font-size="14" fill="#1d2433">COL1</text>
+<text x="946" y="184.0" font-size="13" text-anchor="end" fill="#5b6475">← D3</text>
+<circle cx="620" cy="205.0" r="4" fill="#e4572e"/>
+<text x="634" y="210.0" font-size="14" fill="#1d2433">ROW2</text>
+<text x="946" y="210.0" font-size="13" text-anchor="end" fill="#5b6475">← D4</text>
+<circle cx="620" cy="231.0" r="4" fill="#e4572e"/>
+<text x="634" y="236.0" font-size="14" fill="#1d2433">ROW1</text>
+<text x="946" y="236.0" font-size="13" text-anchor="end" fill="#5b6475">← D5</text>
+<rect x="620" y="268" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#2e86ab" stroke-width="2"/>
+<rect x="620" y="268" width="340" height="26" rx="10" fill="#2e86ab"/>
+<rect x="620" y="284" width="340" height="10" fill="#2e86ab"/>
+<text x="634" y="287" font-size="15" font-weight="700" fill="#fff">DHT11 온습도 센서</text>
+<circle cx="620" cy="311.0" r="4" fill="#2e86ab"/>
+<text x="634" y="316.0" font-size="14" fill="#1d2433">DATA</text>
+<text x="946" y="316.0" font-size="13" text-anchor="end" fill="#5b6475">← D6</text>
+<rect x="620" y="348" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#3bb273" stroke-width="2"/>
+<rect x="620" y="348" width="340" height="26" rx="10" fill="#3bb273"/>
+<rect x="620" y="364" width="340" height="10" fill="#3bb273"/>
+<text x="634" y="367" font-size="15" font-weight="700" fill="#fff">가습기 모듈</text>
+<circle cx="620" cy="391.0" r="4" fill="#3bb273"/>
+<text x="634" y="396.0" font-size="14" fill="#1d2433">IN</text>
+<text x="946" y="396.0" font-size="13" text-anchor="end" fill="#5b6475">← D7</text>
+<rect x="620" y="428" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#f3a712" stroke-width="2"/>
+<rect x="620" y="428" width="340" height="26" rx="10" fill="#f3a712"/>
+<rect x="620" y="444" width="340" height="10" fill="#f3a712"/>
+<text x="634" y="447" font-size="15" font-weight="700" fill="#fff">LED</text>
+<circle cx="620" cy="471.0" r="4" fill="#f3a712"/>
+<text x="634" y="476.0" font-size="14" fill="#1d2433">+ (저항 경유)</text>
+<text x="946" y="476.0" font-size="13" text-anchor="end" fill="#5b6475">← D8</text>
+<rect x="620" y="508" width="340" height="90" rx="10" fill="#f7f8fa" stroke="#8e44ad" stroke-width="2"/>
+<rect x="620" y="508" width="340" height="26" rx="10" fill="#8e44ad"/>
+<rect x="620" y="524" width="340" height="10" fill="#8e44ad"/>
+<text x="634" y="527" font-size="15" font-weight="700" fill="#fff">블루투스 HC-06</text>
+<circle cx="620" cy="551.0" r="4" fill="#8e44ad"/>
+<text x="634" y="556.0" font-size="14" fill="#1d2433">TXD → 아두이노 RX</text>
+<text x="946" y="556.0" font-size="13" text-anchor="end" fill="#5b6475">← D9</text>
+<circle cx="620" cy="577.0" r="4" fill="#8e44ad"/>
+<text x="634" y="582.0" font-size="14" fill="#1d2433">RXD ← 아두이노 TX</text>
+<text x="946" y="582.0" font-size="13" text-anchor="end" fill="#5b6475">← D10</text>
+<rect x="620" y="614" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#d81159" stroke-width="2"/>
+<rect x="620" y="614" width="340" height="26" rx="10" fill="#d81159"/>
+<rect x="620" y="630" width="340" height="10" fill="#d81159"/>
+<text x="634" y="633" font-size="15" font-weight="700" fill="#fff">DC 팬 모듈 (환풍)</text>
+<circle cx="620" cy="657.0" r="4" fill="#d81159"/>
+<text x="634" y="662.0" font-size="14" fill="#1d2433">IN</text>
+<text x="946" y="662.0" font-size="13" text-anchor="end" fill="#5b6475">← D11</text>
+<rect x="620" y="694" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#0f7173" stroke-width="2"/>
+<rect x="620" y="694" width="340" height="26" rx="10" fill="#0f7173"/>
+<rect x="620" y="710" width="340" height="10" fill="#0f7173"/>
+<text x="634" y="713" font-size="15" font-weight="700" fill="#fff">서보 모터 SG90 (출입문)</text>
+<circle cx="620" cy="737.0" r="4" fill="#0f7173"/>
+<text x="634" y="742.0" font-size="14" fill="#1d2433">SIG</text>
+<text x="946" y="742.0" font-size="13" text-anchor="end" fill="#5b6475">← D12</text>
+<rect x="620" y="774" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#7f5539" stroke-width="2"/>
+<rect x="620" y="774" width="340" height="26" rx="10" fill="#7f5539"/>
+<rect x="620" y="790" width="340" height="10" fill="#7f5539"/>
+<text x="634" y="793" font-size="15" font-weight="700" fill="#fff">부저</text>
+<circle cx="620" cy="817.0" r="4" fill="#7f5539"/>
+<text x="634" y="822.0" font-size="14" fill="#1d2433">+</text>
+<text x="946" y="822.0" font-size="13" text-anchor="end" fill="#5b6475">← D13</text>
+<rect x="620" y="854" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#5f0f40" stroke-width="2"/>
+<rect x="620" y="854" width="340" height="26" rx="10" fill="#5f0f40"/>
+<rect x="620" y="870" width="340" height="10" fill="#5f0f40"/>
+<text x="634" y="873" font-size="15" font-weight="700" fill="#fff">토양 수분 센서</text>
+<circle cx="620" cy="897.0" r="4" fill="#5f0f40"/>
+<text x="634" y="902.0" font-size="14" fill="#1d2433">AO</text>
+<text x="946" y="902.0" font-size="13" text-anchor="end" fill="#5b6475">← A0</text>
+<rect x="620" y="934" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#1b998b" stroke-width="2"/>
+<rect x="620" y="934" width="340" height="26" rx="10" fill="#1b998b"/>
+<rect x="620" y="950" width="340" height="10" fill="#1b998b"/>
+<text x="634" y="953" font-size="15" font-weight="700" fill="#fff">조도 센서 (CdS)</text>
+<circle cx="620" cy="977.0" r="4" fill="#1b998b"/>
+<text x="634" y="982.0" font-size="14" fill="#1d2433">AO</text>
+<text x="946" y="982.0" font-size="13" text-anchor="end" fill="#5b6475">← A1</text>
+<rect x="620" y="1014" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#ff6f00" stroke-width="2"/>
+<rect x="620" y="1014" width="340" height="26" rx="10" fill="#ff6f00"/>
+<rect x="620" y="1030" width="340" height="10" fill="#ff6f00"/>
+<text x="634" y="1033" font-size="15" font-weight="700" fill="#fff">불꽃 감지 센서</text>
+<circle cx="620" cy="1057.0" r="4" fill="#ff6f00"/>
+<text x="634" y="1062.0" font-size="14" fill="#1d2433">AO</text>
+<text x="946" y="1062.0" font-size="13" text-anchor="end" fill="#5b6475">← A2</text>
+<text x="40" y="1132.0" font-size="14" fill="#3d4555">• 모든 모듈의 VCC → 5V, GND → GND 공통.  HC-06은 SoftwareSerial(9600bps)로 통신.</text>
+<text x="40" y="1156.0" font-size="14" fill="#3d4555">• v2 (2024-08 방학 버전)은 4x4 키패드 전체 사용: ROW D5·D4·D3·D2, COL A3·A2·A1·A0</text>
+<text x="40" y="1180.0" font-size="14" fill="#3d4555">  → A0~A2가 토양·조도·불꽃 센서와 겹침 (README '아쉬운 점' 참고).</text>
+</svg>

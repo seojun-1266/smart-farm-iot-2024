@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="938.0" viewBox="0 0 1000 938.0" font-family="Segoe UI, Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="1000" height="938.0" fill="#ffffff"/>
+<text x="40" y="48" font-size="26" font-weight="700" fill="#1d2433">천장(Ceiling) 아두이노 배선도 — v2 (2024-08 방학 버전)</text>
+<text x="40" y="78" font-size="15" fill="#5b6475">firmware/ceiling/ceiling.ino 기준 · 수확 알림 + 자동 창문 + 생장등 + 환풍 팬</text>
+<rect x="40" y="110" width="260" height="686.0" rx="14" fill="#00878f"/>
+<text x="60" y="144" font-size="20" font-weight="700" fill="#fff">Arduino UNO</text>
+<rect x="230" y="180.3" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="196.3" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D6</text>
+<circle cx="300" cy="191.3" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="242.9" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="258.9" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D7</text>
+<circle cx="300" cy="253.9" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="305.5" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="321.5" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D8</text>
+<circle cx="300" cy="316.5" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="368.1" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="384.1" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D9</text>
+<circle cx="300" cy="379.1" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="430.7" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="446.7" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D10</text>
+<circle cx="300" cy="441.7" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="493.3" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="509.3" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D11</text>
+<circle cx="300" cy="504.3" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="555.9" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="571.9" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">D13</text>
+<circle cx="300" cy="566.9" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="618.5" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="634.5" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">A0</text>
+<circle cx="300" cy="629.5" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="681.0999999999999" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="697.0999999999999" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">A4</text>
+<circle cx="300" cy="692.0999999999999" r="4" fill="#ffd166" stroke="#1d2433"/>
+<rect x="230" y="743.6999999999999" width="62" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+<text x="261" y="759.6999999999999" font-size="14" font-weight="600" text-anchor="middle" fill="#1d2433">A5</text>
+<circle cx="300" cy="754.6999999999999" r="4" fill="#ffd166" stroke="#1d2433"/>
+<path d="M300,191.3 C450,191.3 470,153.0 620,153.0" fill="none" stroke="#e4572e" stroke-width="2.5"/>
+<path d="M300,253.9 C450,253.9 470,233.0 620,233.0" fill="none" stroke="#2e86ab" stroke-width="2.5"/>
+<path d="M300,316.5 C450,316.5 470,259.0 620,259.0" fill="none" stroke="#2e86ab" stroke-width="2.5"/>
+<path d="M300,379.1 C450,379.1 470,339.0 620,339.0" fill="none" stroke="#3bb273" stroke-width="2.5"/>
+<path d="M300,441.7 C450,441.7 470,419.0 620,419.0" fill="none" stroke="#f3a712" stroke-width="2.5"/>
+<path d="M300,504.3 C450,504.3 470,499.0 620,499.0" fill="none" stroke="#8e44ad" stroke-width="2.5"/>
+<path d="M300,566.9 C450,566.9 470,579.0 620,579.0" fill="none" stroke="#d81159" stroke-width="2.5"/>
+<path d="M300,629.5 C450,629.5 470,659.0 620,659.0" fill="none" stroke="#0f7173" stroke-width="2.5"/>
+<path d="M300,692.0999999999999 C450,692.0999999999999 470,739.0 620,739.0" fill="none" stroke="#7f5539" stroke-width="2.5"/>
+<path d="M300,754.6999999999999 C450,754.6999999999999 470,765.0 620,765.0" fill="none" stroke="#7f5539" stroke-width="2.5"/>
+<rect x="620" y="110" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#e4572e" stroke-width="2"/>
+<rect x="620" y="110" width="340" height="26" rx="10" fill="#e4572e"/>
+<rect x="620" y="126" width="340" height="10" fill="#e4572e"/>
+<text x="634" y="129" font-size="15" font-weight="700" fill="#fff">NeoPixel 스트립 (RGBW 60구)</text>
+<circle cx="620" cy="153.0" r="4" fill="#e4572e"/>
+<text x="634" y="158.0" font-size="14" fill="#1d2433">DIN</text>
+<text x="946" y="158.0" font-size="13" text-anchor="end" fill="#5b6475">← D6</text>
+<rect x="620" y="190" width="340" height="90" rx="10" fill="#f7f8fa" stroke="#2e86ab" stroke-width="2"/>
+<rect x="620" y="190" width="340" height="26" rx="10" fill="#2e86ab"/>
+<rect x="620" y="206" width="340" height="10" fill="#2e86ab"/>
+<text x="634" y="209" font-size="15" font-weight="700" fill="#fff">초음파 센서 HC-SR04</text>
+<circle cx="620" cy="233.0" r="4" fill="#2e86ab"/>
+<text x="634" y="238.0" font-size="14" fill="#1d2433">TRIG</text>
+<text x="946" y="238.0" font-size="13" text-anchor="end" fill="#5b6475">← D7</text>
+<circle cx="620" cy="259.0" r="4" fill="#2e86ab"/>
+<text x="634" y="264.0" font-size="14" fill="#1d2433">ECHO</text>
+<text x="946" y="264.0" font-size="13" text-anchor="end" fill="#5b6475">← D8</text>
+<rect x="620" y="296" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#3bb273" stroke-width="2"/>
+<rect x="620" y="296" width="340" height="26" rx="10" fill="#3bb273"/>
+<rect x="620" y="312" width="340" height="10" fill="#3bb273"/>
+<text x="634" y="315" font-size="15" font-weight="700" fill="#fff">서보 모터 SG90 (지붕 창문)</text>
+<circle cx="620" cy="339.0" r="4" fill="#3bb273"/>
+<text x="634" y="344.0" font-size="14" fill="#1d2433">SIG</text>
+<text x="946" y="344.0" font-size="13" text-anchor="end" fill="#5b6475">← D9</text>
+<rect x="620" y="376" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#f3a712" stroke-width="2"/>
+<rect x="620" y="376" width="340" height="26" rx="10" fill="#f3a712"/>
+<rect x="620" y="392" width="340" height="10" fill="#f3a712"/>
+<text x="634" y="395" font-size="15" font-weight="700" fill="#fff">푸시 버튼 (팬 ON/OFF)</text>
+<circle cx="620" cy="419.0" r="4" fill="#f3a712"/>
+<text x="634" y="424.0" font-size="14" fill="#1d2433">핀 1 (INPUT_PULLUP, 다른 쪽은 GND)</text>
+<text x="946" y="424.0" font-size="13" text-anchor="end" fill="#5b6475">← D10</text>
+<rect x="620" y="456" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#8e44ad" stroke-width="2"/>
+<rect x="620" y="456" width="340" height="26" rx="10" fill="#8e44ad"/>
+<rect x="620" y="472" width="340" height="10" fill="#8e44ad"/>
+<text x="634" y="475" font-size="15" font-weight="700" fill="#fff">DC 팬 모듈</text>
+<circle cx="620" cy="499.0" r="4" fill="#8e44ad"/>
+<text x="634" y="504.0" font-size="14" fill="#1d2433">IN</text>
+<text x="946" y="504.0" font-size="13" text-anchor="end" fill="#5b6475">← D11</text>
+<rect x="620" y="536" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#d81159" stroke-width="2"/>
+<rect x="620" y="536" width="340" height="26" rx="10" fill="#d81159"/>
+<rect x="620" y="552" width="340" height="10" fill="#d81159"/>
+<text x="634" y="555" font-size="15" font-weight="700" fill="#fff">부저</text>
+<circle cx="620" cy="579.0" r="4" fill="#d81159"/>
+<text x="634" y="584.0" font-size="14" fill="#1d2433">+</text>
+<text x="946" y="584.0" font-size="13" text-anchor="end" fill="#5b6475">← D13</text>
+<rect x="620" y="616" width="340" height="64" rx="10" fill="#f7f8fa" stroke="#0f7173" stroke-width="2"/>
+<rect x="620" y="616" width="340" height="26" rx="10" fill="#0f7173"/>
+<rect x="620" y="632" width="340" height="10" fill="#0f7173"/>
+<text x="634" y="635" font-size="15" font-weight="700" fill="#fff">조도 센서 (CdS)</text>
+<circle cx="620" cy="659.0" r="4" fill="#0f7173"/>
+<text x="634" y="664.0" font-size="14" fill="#1d2433">AO</text>
+<text x="946" y="664.0" font-size="13" text-anchor="end" fill="#5b6475">← A0</text>
+<rect x="620" y="696" width="340" height="90" rx="10" fill="#f7f8fa" stroke="#7f5539" stroke-width="2"/>
+<rect x="620" y="696" width="340" height="26" rx="10" fill="#7f5539"/>
+<rect x="620" y="712" width="340" height="10" fill="#7f5539"/>
+<text x="634" y="715" font-size="15" font-weight="700" fill="#fff">I2C LCD 16x2 (0x27)</text>
+<circle cx="620" cy="739.0" r="4" fill="#7f5539"/>
+<text x="634" y="744.0" font-size="14" fill="#1d2433">SDA</text>
+<text x="946" y="744.0" font-size="13" text-anchor="end" fill="#5b6475">← A4</text>
+<circle cx="620" cy="765.0" r="4" fill="#7f5539"/>
+<text x="634" y="770.0" font-size="14" fill="#1d2433">SCL</text>
+<text x="946" y="770.0" font-size="13" text-anchor="end" fill="#5b6475">← A5</text>
+<text x="40" y="840.0" font-size="14" fill="#3d4555">• 모든 모듈의 VCC → 5V, GND → GND 공통.  네오픽셀 60구는 전류가 커서 별도 5V 전원 권장(GND는 아두이노와 공통).</text>
+<text x="40" y="864.0" font-size="14" fill="#3d4555">• v1 (2024-06 전시회)은 네오픽셀·버튼·팬 대신 일반 LED 1개를 D12에 연결 (나머지 핀 동일).</text>
+<text x="40" y="888.0" font-size="14" fill="#3d4555">• 천장부는 건전지로 따로 전원을 공급해 바닥부와 분리된 독립 보드로 동작.</text>
+</svg>
